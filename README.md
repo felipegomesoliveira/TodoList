@@ -8,7 +8,6 @@ trouxe uma grande facilidade.</p>
  <a href="#objetivo">Objetivo</a> •
  <a href="#comoUsar">como usar</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
  <a href="#disclaimer">Disclaimer</a> • 
 </p>
 
@@ -43,5 +42,5 @@ as depedências
   ## Disclaimer
   
   <p id="disclaimer" aling="center"> O código da API foi feito e toda a estrutura back end montadad, devido a alguns problemas com roteamento o front está incompleto, os componentes estão funcionando separadamente, eles estão sendo chamadaos na 'App.vue', para visualizar os componentes basta desmomentar o componente em questão e 
-executar 'php artisan serve'</p>
+executar 'npm run dev' e logo após  'php artisan serve'. att</p>
   
