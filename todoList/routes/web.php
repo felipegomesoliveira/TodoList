@@ -18,4 +18,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/{any}',  [SpaController::class, 'index'] )->where('any', '.*');
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
+Route::get('/user', function () {
+    return view('userAccount');
+});
+
+// Route::get('/{any}',  [SpaController::class, 'index'] )->where('any', '.*');
