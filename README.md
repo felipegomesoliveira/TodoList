@@ -13,7 +13,7 @@ trouxe uma grande facilidade.</p>
 
 ## Como Usar
 <p id="comoUsar" aling="center"> Para rodar este projeto é preciso ter algumas depêndencias instaladas, depois de instaladas roda 'npm install' e composer install para atualizar
-as depedências
+as depedências, depois roda 'npm run dev' para compilar e 'php artisan serve' para criar o servidor local.
 </p>
 
 ### Requisitos
@@ -32,7 +32,6 @@ as depedências
     <li>MVC</li>
     <li>SQlite</li>    
     <li>vue.js</li>
-    <li>ajax</li>
     <li>bootstrap</li>
     <li>node.js</li>
     <li>composer</li>
@@ -41,6 +40,6 @@ as depedências
   
   ## Disclaimer
   
-  <p id="disclaimer" aling="center"> O código da API foi feito e toda a estrutura back end montadad, devido a alguns problemas com roteamento o front está incompleto, os componentes estão funcionando separadamente, eles estão sendo chamadaos na 'App.vue', para visualizar os componentes basta desmomentar o componente em questão e 
-executar 'npm run dev' e logo após  'php artisan serve'. att</p>
+  <p id="disclaimer" aling="center"> segue alguns exemplos de como as requets são feitas: <a href="https://magic-neighbor-a8d.notion.site/Exemplos-de-requests-579aa37c37e847dfbda7b66a12debe0c"> exemplos aqui </a> </p>
+ 
   
