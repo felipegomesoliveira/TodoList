@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\SpaController;
+use  App\Providers\RouteServiceProvider;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,7 +17,22 @@ use App\Http\Controllers\SpaController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/dashboard');
 });
 
-Route::get('/{any}',  [SpaController::class, 'index'] )->where('any', '.*');
+Route::get('/user', function () {
+    return view('userAccount');
+});
+
+Route::get('/delete', function () {
+    return view('deleteUser');
+});
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');

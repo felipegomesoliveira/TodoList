@@ -1,16 +1,12 @@
 <template>
     <div id="conteiner">
 
-        <singUp/>
-        <!-- <auth-view/> -->
+        <!-- <singUp/> -->
+        <!-- <auth-view/>  -->
         <!-- <EditUser/> -->
         <!-- <form-add-task/> -->
         <!-- <edit-task/> -->
         <!-- <delete-task/> -->
-
-        <div class="content">
-            <router-view></router-view>
-        </div>
     </div>
 </template>
 

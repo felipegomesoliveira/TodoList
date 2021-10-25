@@ -31,6 +31,7 @@
             </div>
 
             <button class="w-100 btn btn-lg btn-primary" type="submit">Edit</button>
+             <button type="button" class="btn btn-warning"><a href="http://127.0.0.1:8000/delete"> Delete your account</a> </button>
         </form>
     </main>
 </div>
