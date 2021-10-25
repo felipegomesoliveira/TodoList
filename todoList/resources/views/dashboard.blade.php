@@ -13,7 +13,7 @@
     </head>
     <body>
         <div id="app">
-            <app-component/>
+            <task-component/>
         </div>
 
         <script src="{{asset('js/app.js') }}"></script>

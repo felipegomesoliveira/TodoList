@@ -13,7 +13,8 @@
     </head>
     <body>
         <div id="app">
-            <app-component/>
+        <div class="text-end">
+            <delete-component/>
         </div>
 
         <script src="{{asset('js/app.js') }}"></script>

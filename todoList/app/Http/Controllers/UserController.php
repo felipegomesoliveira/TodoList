@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\User;
 
+use Illuminate\Support\Facades\Hash;
+
 
 class UserController extends Controller
 {
@@ -41,7 +43,7 @@ class UserController extends Controller
         $newUser = new User;
         $newUser-> name = $request-> name ["name"];
         $newUser-> email = $request-> email ["email"];
-        $newUser->  password = $request-> password ["password"];
+        $newUser->  password = Hash::make( $request -> password [ "password"]);
         $newUser-> save();
 
         return $newUser;
