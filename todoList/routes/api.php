@@ -36,3 +36,5 @@ Route::prefix('/user')->group(function () {
     Route::delete('/{id}', [UserController::class, 'destroy']);
 });
 
+Route::get('test');
+
